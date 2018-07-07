@@ -38,10 +38,10 @@ $("#myModal").css("display", "block");
   })
  
  let modal = document.getElementById('myModal');
- console.log(modal)
+ 
  
 $(window).click(function(event){
-    console.log(event.target)
+    
   if (event.target == modal){
     $("#myModal").css("display", "none");
   }
